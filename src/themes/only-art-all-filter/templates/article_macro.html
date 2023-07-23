@@ -1,0 +1,58 @@
+
+{% macro mainn(article) %}
+<article class="content-pad">
+    <div class="content-main">
+        <section class="content-article">
+            <article id="content">{{article.content}}</article>
+            <hr>  
+            {# include HTML.article_translations.fname #}
+        </section>
+    </div>
+</article>
+<div class="content-main">
+    <div>
+     {% include HTML.articles.fname %}
+    </div>
+</div>
+
+{%endmacro%}
+
+{% macro sidebarr(article) %}
+{% block sidebar_contents %}
+<div class="">
+  <details class="">
+    <summary class="box">
+    <h1 id="title" class="article-title flush-right" >
+    {{ article.title }}
+    </h1>
+    </summary>
+    <div>
+    {% include HTML.article_info.fname %}
+    </div>
+  </details>
+</div>
+
+{% endblock %}
+
+{%endmacro%}
+
+
+
+{% macro metaa(article) %}
+{% block meta %}
+<!-- <meta name="author" content="{{ article.author.name }}"> -->
+<meta name="author" content="{{ article.authors}}">
+<meta name="keywords" content="{{ article.keywords|escape }}">
+{% endblock %}
+
+{% block canonical_url %}{{ HOMEURL }}/{{article.url}}{% endblock %}
+{% block description %} {{ article.summary|striptags|escape }} {%endblock %}
+{% block title %} {{article.title}} {% endblock %}
+
+{% block extra_head %}
+{% import HTML.translations_funcs.fname as TR with context %}
+{% if TR.entry_hreflang(article) %}
+{{ TR.entry_hreflang(article) }}
+{% endif %}
+{% endblock %}
+{%endmacro%}

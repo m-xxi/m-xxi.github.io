@@ -1,0 +1,10 @@
+
+{% if article.translations %}
+  {% for TR in article.translations %}
+  <hr id='{{TR.lang}}'>
+    {{LABELS.translation.capitalize()}}: {{ LABELS.languages[TR.lang] }}
+  <h1>
+  <a href="/{{ TR.url }}" hreflang="{{ TR.lang }}"> {{TR.title}} </a> </h1>
+    {{TR.content}}
+  {% endfor %}
+{% endif %}

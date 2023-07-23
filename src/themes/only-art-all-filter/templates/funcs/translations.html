@@ -1,0 +1,25 @@
+{% macro translations_for(article) %}
+  {% if article.translations %}
+  {{LABELS.versions.capitalize()}}:
+    {% for TR in article.translations %}
+      <a href="/{{ TR.url }}" hreflang="{{ TR.lang }}">{{ TR.lang }}</a>
+  {% endfor %}
+  {% endif %}
+{% endmacro %}
+
+{% macro entry_hreflang(entry) %}
+  {% if entry.translations %}
+    {% for TR in entry.translations %}
+      <link rel="alternate" hreflang="{{ TR.lang }}" href="/{{ TR.url }}">
+    {% endfor %}
+  {% endif %}
+{% endmacro %}
+
+{# href="#{{ TR.lang }}" #}
+{% macro translations_list_for(article) %}
+  {% if article.translations %}
+    {% for TR in article.translations %}
+      <li><a href="/{{ TR.lang }}/{{ TR.url }}" hreflang="{{ TR.lang }}">{{ LABELS.languages[TR.lang] }}</a></li>
+  {% endfor %}
+  {% endif %}
+{% endmacro %}

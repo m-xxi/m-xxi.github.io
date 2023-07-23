@@ -1,0 +1,45 @@
+{% extends HTML.base.fname %}
+
+
+{% block meta %}
+<!-- # super() }} -->
+ <!-- the function super() keeps the content previously inserted in the head block. -->
+<meta name="keywords" content="blog">
+{% endblock %}
+
+{% block canonical_url %}{{SITEURL}}{% endblock %}
+
+{% block description %} 
+{{SUBTITLE}} | {{SUBTEXT}}
+{%endblock %}
+
+{% block title %} {{SITENAME}} {% endblock %}
+
+{% block main %}
+        <header>
+            <h1 class="border-bottom">{{SUBTITLE}}</h1>
+            <h3> {{SUBTEXT}}</h3>
+        </header>
+<div class="content-main">
+    <div>
+
+             {% include HTML.featured_articles.fname %}
+        <div>
+            <a href="/">
+            <button class="btn btn-green btn-block">
+                <!-- View all Code Snippets -->
+            </button>
+            </a>
+
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+{% block sidebar_contents %}
+ <!-- include "../layouts/ebook.html" %} -->
+{% include HTML.tag_cloud.fname %}
+
+{% endblock %}
+

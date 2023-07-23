@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{DEFAULT_LANG}}">
+<head>
+    <!-- Title -->
+    <title>{% block title%}{% endblock %}</title>
+    {% block meta %}
+    {% endblock %}
+    <meta name="description" content="{% block description %}{% endblock %}">
+    <link rel="canonical" href="{% block canonical_url %}{% endblock %}">
+    {% include HTML.header.fname %}
+    {% block extra_head%}{% endblock %}
+</head>
+<body>
+
+    <!-- Main Section -->
+    <main>
+        <content >
+        {% block main %}
+        {% endblock %}
+        </content>
+        <aside>
+            {% block sidebar_contents %}
+            {% endblock %}
+        </aside>
+
+        <div id='{{LABELS.sink.bottom}}' \>
+
+    </main>
+    <!-- End of Main Section -->
+
+
+<script>
+    $(function(){
+    $(".select").gridPicker()
+  });
+    $(".select").gridPicker({
+  canSelect: function(element) {
+    return !$(element).is(":disabled");
+  },
+  canUnselect: function(element) {
+    return typeof this._$ui.element.attr("multiple") !== "undefined";
+  }
+})
+</script>
+
+    <script src="/{{ THEME_STATIC_DIR }}/js/filter-by-tags.js"></script>
+</body>
+
+</html>

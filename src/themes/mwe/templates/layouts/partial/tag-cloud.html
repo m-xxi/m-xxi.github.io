@@ -1,0 +1,18 @@
+
+<form id="tags-form" name="tags-form" > 
+      <div style="display: inline-block;">
+<select class="select default multiple" multiple name='tags-select' form='tags-form' id='tags-id' onChange="SelectArticlesFromTags(this)">
+
+       {% for tag in clouds.tag %}
+        <option value="{{ tag.slug}}" class="tag tag-lg tag-{{ tag.slug }} " id='option-tag-{{tag.index}}'>
+            #{{ tag.name }}
+                {% if TAG_CLOUD_BADGE %}
+                    <span class="badge">{{ tag.count }}</span>
+                {% endif %}
+        </option>
+
+        {% endfor %}
+
+  </select>
+</div>
+</form>
