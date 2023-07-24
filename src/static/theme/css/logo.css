@@ -1,0 +1,34 @@
+
+.logo-wrapper {
+    width: var(--nav-width);
+    height: var(--nav-width);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*margin: 2rem 0;*/
+}
+
+
+img.logo,svg.logo {
+    width: calc(var(--nav-width) *0.6);
+    height: calc(var(--nav-width) *0.6);
+}
+
+.logo a {
+    color: var(--text-color)
+}
+
+a.logo {
+    color: var(--text-color)
+}
+
+
+.logo:hover .logo-label {
+    transform: scale(1) translateY(var(--mygap));
+    transition: transform 0ms ease-in;
+    display: block;
+}
+
+.logo .logo-label {
+    display: none;
+}
