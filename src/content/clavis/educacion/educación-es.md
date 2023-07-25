@@ -1,4 +1,0 @@
-title: educación
-
-## Etimología
-educare

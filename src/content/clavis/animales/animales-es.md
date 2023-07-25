@@ -1,3 +1,0 @@
-## etimología
-
-del latín anima
