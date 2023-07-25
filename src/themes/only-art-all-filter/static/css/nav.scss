@@ -1,0 +1,106 @@
+$media-change-w:768px;
+
+/* Large screens */
+
+@media only screen and (min-width: $media-change-w) {
+    .navbar {
+        top: 0;
+        height: 100vh;
+        min-height: 500px;
+        width: var(--nav-width);
+        flex-direction: column;
+        padding-top: var(--nav-width);
+        align-items: center;
+    }
+
+    .navbar .item {
+        margin-bottom: 10px;
+        overflow-x: visible;
+    }
+
+}
+
+/* Small screens */
+
+@media only screen and (max-width: $media-change-w) {
+    .navbar {
+        bottom: 0;
+        right: 0;
+        width: 100vw;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .navbar .item {
+        overflow-x: visible
+    }
+
+}
+
+.navbar {
+    overflow-x: visible;
+    position: fixed;
+    right: 0;
+    /*max-width: 70px;*/
+    display: inline-flex;
+    background: var(--nav-bg);
+    box-shadow: var(--nav-shadow);
+    z-index: 99;
+    transition: right .3s ease
+}
+
+.navbar .item:hover .item-label {
+    transform: scale(1) translateX(var(--nav-width));
+    transition: transform 0ms ease-in
+}
+
+.navbar .item .item-label {
+    position: fixed;
+    transform: scale(0) translateX(0);
+    transition: transform .3s ease-out;
+    opacity: .8;
+    right: 10px
+}
+
+.navbar .item.item-highlight {
+    color: var(--green)
+}
+
+.navbar::-webkit-scrollbar {
+    width: 0;
+    background: transparent
+}
+
+
+
+.topnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: .5em var(--mygap);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 999;
+    transition: top .3s ease
+}
+
+.topnav .item {
+    box-shadow: var(--nav-shadow);
+    margin: 0;
+}
+
+@media (max-width:$media-change-w) {
+    .topnav {
+        margin: 0
+    }
+}
+
+.topnav .item:hover .fk-primary {
+    color: var(--text-color)
+}
+
+.topnav .item:hover .fk-secondary {
+    color: var(--h-color)
+}

@@ -1,0 +1,81 @@
+{% extends HTML.base.fname %}
+
+{% block main %}
+
+
+<article class="content-pad" style='
+    min-height: 72vh; 
+    background-color: #cacaca;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    '>
+            {%if article.align=='center'%}
+            <div style='text-align: center; '>
+            {%endif%}
+    <div class="content-main" >
+
+        <section class="content-article" >
+            <article id="content">
+
+            {{article.content}}
+
+        </article>
+            <!-- <hr>   -->
+            {# include HTML.article_translations.fname #}
+        </section>
+    </div>
+            {%if article.align=='center'%}
+            </div>
+            {%endif%}
+</article>
+
+<div class="" style='margin-top:5ex' >
+    <div>
+     {% include HTML.articles.fname %}
+    </div>
+</div>
+
+{% endblock %}
+
+{% block sidebar_contents %}
+<div class="">
+  <details class="">
+    <summary class="">
+    <h1 id="title" class="article-title flush-right" >
+        <div style='font-family: "Pacifico";'>
+    {{ article.title }} 
+    </div>
+    </h1>
+    </summary>
+    <div>
+    {% include HTML.article_info.fname %}
+    </div>
+  </details>
+</div>
+
+{% endblock %}
+
+
+
+
+
+
+{% block meta %}
+<!-- <meta name="author" content="{{ article.author.name }}"> -->
+<meta name="author" content="{{ article.authors}}">
+<meta name="keywords" content="{{ article.keywords|escape }}">
+{% endblock %}
+
+{% block canonical_url %}{{ HOMEURL }}/{{article.url}}{% endblock %}
+
+{% block description %} {{ article.summary|striptags|escape }} {%endblock %}
+
+{% block title %} {{article.title|striptags}} {% endblock %}
+
+{% block extra_head %}
+{% import HTML.translations_funcs.fname as TR with context %}
+{% if TR.entry_hreflang(article) %}
+{{ TR.entry_hreflang(article) }}
+{% endif %}
+{% endblock %}

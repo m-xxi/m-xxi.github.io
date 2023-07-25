@@ -1,0 +1,20 @@
+<ul class="row-max-1">
+    {% set articles = (articles_page.object_list|list) %}
+    {% for article in articles[:] %}
+
+<!-- article.tags do not have the index element so must do this nested for using the tag.cloud -->
+ <div class="c-article 
+      {% for tag in article.tags %}
+        {% for tagc in clouds.tag %}
+        {% if tag==tagc.name %}
+        c-tag-{{tagc.index}} 
+        {%endif%}
+        {%endfor%}
+      {%endfor%}
+">
+    {% include HTML.article_card.fname %}
+
+    </div>
+
+    {% endfor %}
+</ul>

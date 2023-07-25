@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{DEFAULT_LANG}}">
+<head>
+    {% include 'includes/header.html' %}
+</head>
+<body>  
+    <!-- Main Section -->
+    <main>
+
+        <aside>
+        {% block sidebar_contents %}
+        {% endblock %}
+        </aside>
+        <content >
+        {% block main %}
+        {% endblock %}
+        </content>
+    </main>
+</body>
+</html>

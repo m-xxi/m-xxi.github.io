@@ -1,0 +1,72 @@
+<div class='article-info'>
+    <div class='info-list box'>
+        <div class='logo-wrapper'>
+        <img class='logo'  src="/{{THEME_STATIC_DIR}}/img/icons/calendar.svg" onload="SVGInject(this)" />
+        </div>   
+        <div class='info-text'>
+         {{article.locale_date}}
+        </div>
+    </div>
+
+    {% if article.readtime %}
+    {% if article.readtime.minutes >2 %}
+    <div class='info-list box'>
+        <div class='logo-wrapper'>
+        <img class='logo'  src="/{{THEME_STATIC_DIR}}/img/icons/clock.svg" onload="SVGInject(this)" />
+        </div>
+
+        <div class='info-text'>
+        {{ article.readtime.minutes }} min
+        </div>
+    </div>
+    {% endif %}
+    {% endif %}
+
+    {% if article.translations %}
+    <div class='info-list box'>
+        <div class='logo-wrapper'>
+        <img class='logo'  src="/{{THEME_STATIC_DIR}}/img/icons/speak.svg" onload="SVGInject(this)" />
+        </div>
+        <div class='info-text' >
+        <ul style='display:flex;flex-flow: row wrap; justify-content:space-between; width:100%;'>
+        <li>  
+        {{ LABELS.languages[article.lang] }}
+        </li>
+        {% import HTML.translations_funcs.fname as TR with context %}
+        {{ TR.translations_list_for(article) }}
+        </div>
+    </ul>
+    </div>
+    {%elif article.in_default_lang == False %}
+    <!-- cuando hay un artículo que no  está en el lenguaje original -->
+    <div class='info-list box'>
+        <div class='logo-wrapper'>
+        <img class='logo'  src="/{{THEME_STATIC_DIR}}/img/icons/speak.svg" onload="SVGInject(this)" />
+        </div>
+        <div class='info-text'>
+        {{ LABELS.languages[article.lang] }}
+        </div>
+    </div>
+    {%endif%}
+
+    {%set myarticle=article %}
+    {% for kw_type in KW_TYPES %}
+    {%if myarticle[kw_type] %}
+    <div class='info-list box'>
+    <!-- <div class="article-tags" style="flex-direction: column;"> -->
+    {% include HTML.article_keyw.fname %}
+<!--     </div> -->
+    </div>
+    {%endif%}
+    {%endfor%}
+</div>
+
+    {% if article.toc %}
+  <details open class="">
+    <summary class="box">{{LABELS.toc.title.capitalize()}}</summary>
+    <div>
+     <!-- style="margin-top:2em"> -->
+      {{ article.toc }}
+    </div>
+  </details>
+    {% endif %}

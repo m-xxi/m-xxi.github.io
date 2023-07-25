@@ -1,0 +1,70 @@
+
+<div style="display:block">
+
+    {% if article.author != '' %}
+    <div class='info-list'>
+        <a href="{{URLS.authors}}" id="authors" class="item">
+        <img src="/{{THEME_STATIC_DIR}}/img/icons/writer.svg" onload="SVGInject(this)" />
+        </a>
+
+        {%for au in article.authors %}
+          {% for author, arts in authors %}
+            {%if au == author%}
+            <a href="/{{ author.url }}" class="tag tag-auth">{{ author }}</a> 
+            {%endif%}
+        {% endfor %}
+        {%endfor%}
+    </div>
+
+    {% endif %}
+
+    <div class='info-list'>
+        <a href="{{URLS.archives}}" id="archives" class="item">
+        <img src="/{{THEME_STATIC_DIR}}/img/icons/calendar.svg" onload="SVGInject(this)" />
+        </a>   
+        <div class='info-item'>
+         {{article.locale_date}}
+        </div>
+    </div>
+
+    {% if article.readtime %}
+    <div class='info-list'>
+        <a href="{{URLS.archives}}" id="archives" class="item">
+        <img src="/{{THEME_STATIC_DIR}}/img/icons/clock.svg" onload="SVGInject(this)" />
+        </a>
+        <div class='info-item'>
+        {{ article.readtime.minutes }} min
+        </div>
+    </div>
+    {% endif %}
+
+    {% if article.translations %}
+    <div class='info-list'>
+        <a href="/" id="speak" class="item">
+        <img src="/{{THEME_STATIC_DIR}}/img/icons/speak.svg" onload="SVGInject(this)" />
+        </a>
+        <div class='info-item'>
+        {{ LABELS.languages[article.lang] }}
+        </div>
+    </div>
+    {%endif%}
+
+
+    {% if article.toc %}
+  <details open class="flex flex-col my-6 p-4  rounded-lg">
+    <summary class="text-lg font-bold">{{LABELS.toc.title.capitalize()}}</summary>
+    <div style="margin-top:2em">
+      {{ article.toc }}
+    </div>
+  </details>
+    {% endif %}
+
+    {% if article.translations %}
+    {% import HTML.translations_funcs.fname as TR with context %}
+    {{LABELS.translation.capitalize()}}:
+    <ul>
+    {{ TR.translations_list_for(article) }}
+    </ul>
+    {% endif %}
+    {% include HTML.article_tags.fname %}
+</div>
