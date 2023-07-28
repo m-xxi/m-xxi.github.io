@@ -1,7 +1,7 @@
 status:published
 align: center
 
-Aquí reflejo mi pensar; 
+Un reflejo del pensar; 
 
 descubriéndose, ordenándose; 
 

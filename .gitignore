@@ -1,4 +1,6 @@
 **/.DS_Store
 *_old/
 *.sublime*
-*.github.io/
+*github.io/
+*gh-pages/
+*output/

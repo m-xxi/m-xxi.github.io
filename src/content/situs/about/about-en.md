@@ -1,7 +1,7 @@
 status:published
 align:center
 
-Here my thoughts reflect, 
+Reflected thoughts, 
 
 finding themselves,
 

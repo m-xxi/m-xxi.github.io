@@ -1,7 +1,7 @@
 status:published
 tags:lemas
 date:2023-04-14
-
+summary:Cada fuerza condensa una lágrima; una lágrima invisible. Cada lágrima refleja la luz; la luz detrás de cada fuerza.
 
 Cada fuerza condensa una lágrima;
 una lágrima invisible.

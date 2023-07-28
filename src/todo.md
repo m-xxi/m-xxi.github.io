@@ -4,7 +4,9 @@
 
 * no anda keyw_clouds option SelectArticlesFromSelectClass cuando estoy dentro de un artículo (i.e. cuando se usa el sidenav desde article.html). Si anda desde la página principal (index.html)
 	* seguro tiene que ver qu son dos archivos diferentes
+
 * sacar la variable URLS
+
 * que al apretar sobre article-tags, muestre en violeta en el rightnav el tag apretado
 
 * button: 'more'/'details' en la configuración dentro del rightnav
