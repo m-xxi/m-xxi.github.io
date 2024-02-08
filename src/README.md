@@ -4,7 +4,8 @@
 
 #### slug
 no lo estoy usando, me hubiera gustado poner 
-> # SLUGIFY_SOURCE = 'fpath'
+> SLUGIFY_SOURCE = 'fpath'
+
 pero no lo toma, si lo hubiera tomado, no habría que poner los directorios como slug
 
 
@@ -65,7 +66,7 @@ este usa como index el template: languages.html
 ### style
 Estoy usando sass para poder usar varibales y dividir en múltiples archivos
 
-	% sass -w style.scss style.css
+	% src/themes/static/css/ sass -w style.scss style.css
 
 #### ToDo
 

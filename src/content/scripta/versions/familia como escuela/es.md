@@ -8,4 +8,6 @@ La experiencia familiar incómoda, indeseada no es opcional.
 Lo que sí podemos elegir es aprovechar esos movimientos para intentar erguirnos; que difícil. 
 Lo que si podemos elegir es acompañarnos en esos movimientos. Que bendición.
 
+<!-- La experiencia familiar incómoda nos tienta a alejarnos ... -->
+
 Terminamos el año 2022 celebrando el día de la Sagrada Familia; le pido que en este nuevo año nos bendiga y nos ayude a sacralizar un poco más la nuestra.

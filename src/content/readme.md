@@ -30,7 +30,7 @@ Me pienso como semilla de un sembrador, oveja de un pastor, hijo de un padre
 
 creatura - credulo - creido
 
-CREYENTE:
+CREYENTE-TEO:
 creado: creyente pasivo, materialista pues el poder esta lejano
 	creyente con vivencia en el pasado
 
