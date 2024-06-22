@@ -3,8 +3,13 @@
 # as long as they are in all-caps. You can access them directly
 # pelican --print-settings 
 
+
+
 import os
-PUBLISH = os.environ.get("PUBLISH"); print(f"PUBLISH: {PUBLISH}")
+PUBLISH = os.environ.get("PUBLISH"); 
+# PUBLISH=True;
+
+print(f"PUBLISH: {PUBLISH}")
 DEBUG = os.environ.get("DEBUG"); print(f"DEBUG: {DEBUG}")
 
 # Because pelicanconf.py is in a folder different than the main src folder

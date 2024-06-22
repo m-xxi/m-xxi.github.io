@@ -18,6 +18,7 @@ SUBTEXT = 'Un recurso de un recursante fuera de curso cursando, en el siglo XXI,
 SUBTEXT = 'Un recurso precursor a la excursión incursiva'
 SUBTEXT = 'Escritos a mano, sin edición, con inspiración.'
 
+SUBTEXT = 'Escritos a mano en el siglo <myxxi>XXI</myxxi>'
 # 'Un recurso para recursar los discursos cursados y excursionar en discursos incursivos, precursores del curso venidero.'
 # En el transcurso del siglo XXI, recursamos los discursos '
 # en el transcurso del 

@@ -7,4 +7,3 @@ e.g.:
 *	cristianismo, antroposofía, galaak, jerarquía funcional (orgánica)
 
 
-la autoridad impuesta vs. concedida

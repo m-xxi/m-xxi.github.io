@@ -44,7 +44,9 @@
     <summary class="">
     <h1 id="title" class="article-title flush-right" >
         <div style='font-family: "Pacifico";'>
-    {{ article.title }} 
+
+    {{ article.title|replace("&nbsp;", " ") }} 
+
     </div>
     </h1>
     </summary>

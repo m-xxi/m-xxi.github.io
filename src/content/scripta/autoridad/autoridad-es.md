@@ -1,0 +1,1 @@
+la autoridad impuesta vs. concedida

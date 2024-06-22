@@ -12,6 +12,7 @@ SUBTEXT = "An off course recoursant's recourse, coursing in the XXIst century a 
 SUBTEXT = "A recourse from an off course recoursant coursing, in the XXIst century, a recursive course."
 SUBTEXT = 'A precursor recourse to an incursive excursion' 
 SUBTEXT = 'Handwritten, without edition, with inspiration.'
+SUBTEXT='Handwritting in the <myxxi>XXI</myxxi>st century'
 # in the course of 
 # coursing the XXIst century course
 

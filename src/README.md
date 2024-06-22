@@ -11,21 +11,22 @@ pero no lo toma, si lo hubiera tomado, no habría que poner los directorios como
 
 #### keywords
 
-*	DEFAULT_CATEGORY = LABELS['src']['posts'], i.e. posts
+*	DEFAULT_CATEGORY = LABELS['src']['posts'], i.e. posts = scripta
 
 en el .md hay que poner category, luego el plugin more-categories crea la article attribute 'categories': las uso con mayor jerarquía que tags
 
 * all keywords and authors should have a post with their name as a title
 
-### structure
+### Structure
 
 * Creo la variable `fpath` que indica el file path:
 	*	PATH_METADATA = `'(?P<fpath>.*)/.*'`
-	*   `fpath` tiene que estar escrito como slug
+	*   `fpath` pueden tener tildes y espacios
 	*	Se usa para identificar a las traducciones:
 		*	ARTICLE_TRANSLATION_ID='fpath'
 * El nombre del archivo tienen el título y el lang
 	*	FILENAME_METADATA = `r'(?P<title>.*)-(?P<lang>.*)'`
+	* 	pueden tener tildes y espacios
 
 *	solo templates index.html y article.html, el index recorre sobre todos los articles
 

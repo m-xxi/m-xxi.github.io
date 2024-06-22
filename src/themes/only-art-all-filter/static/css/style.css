@@ -402,8 +402,13 @@ footer p {
   font-size: 0.9em;
 }
 
+.poetry {
+  line-height: 1.3;
+  text-align: center;
+}
+
 .content-article p {
-  line-height: 1.8;
+  line-height: 1.3;
 }
 
 .content-article em {
@@ -896,6 +901,14 @@ box.$media-change-w:$media-change-w;
 
 header {
   /*margin-left:var(--mygap);*/
+}
+
+myupper, myxxi {
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
+
+myxxi {
+  margin-left: 0.4em;
 }
 
 .info-font, .upper-font {

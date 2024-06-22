@@ -1,13 +1,14 @@
 status:published
 align: center
 
+<!---
 Un reflejo del pensar; 
 
 descubriéndose, ordenándose; 
 
 construyéndose, afirmándose;
 
-<!---
+
 Es  una forma complicada de decir que esto pretende ser un blog 'existencial'. Un lugar donde reflejo mi pensar; 
 descubriéndose, ordenándose;
 construyéndose, afirmándose;

@@ -20,6 +20,9 @@ def pelicanconf(lang):
 		fp.write(conf_original)
 
 def main():
+
+
+
 	import render_home
 	render_home.main()
 	

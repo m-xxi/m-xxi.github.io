@@ -25,7 +25,7 @@ else:
 print(f"LANG:{LANG_DIR}")
 
 BIND='127.0.0.1';PORT=8001
-SITEURL = 'https://'+SITENAME.lower()+".com" if PUBLISH else "http://"+BIND+":"+str(PORT)
+SITEURL = 'https://www.'+SITENAME.lower()+".com" if PUBLISH else "http://"+BIND+":"+str(PORT)
 
 HOMEURL=SITEURL + '/'+LANG_DIR
 
