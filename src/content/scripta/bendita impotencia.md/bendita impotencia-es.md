@@ -16,4 +16,4 @@ Habiendo reconocido la realidad patente -independientemente de la crudeza que pr
 
 Enaltece la existencia.
 
-Bendita impotencia. Enamoraste al Todopoderoso.
+Bendita impotencia. Enamoras al Todopoderoso.

@@ -883,7 +883,7 @@ box.$media-change-w:$media-change-w;
 
 @media (max-width: 768px) {
   :root {
-    --font-size: 15px;
+    --font-size: 18px;
     --nav-width: 3em;
   }
 }

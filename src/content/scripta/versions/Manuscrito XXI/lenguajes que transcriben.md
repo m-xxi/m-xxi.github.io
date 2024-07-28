@@ -1,4 +1,5 @@
 <!-- Cursando el siglo `XXI`;  -->
+Exploramos lenguajes que transcriben nuestra realidad.
 
 Lo intentamos día a día.
 Escribiendo manuscritos en cursiva;

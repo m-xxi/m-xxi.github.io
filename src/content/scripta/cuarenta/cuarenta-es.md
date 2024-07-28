@@ -1,5 +1,6 @@
 Cuarenta 
 
+40 años duró la peregrinación israelita desde Egipcio a la tierra prometida
 
 David reinó 7 años y 33 años: 40 años. 
 >	2 Samuel 5: 5-5

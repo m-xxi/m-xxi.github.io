@@ -2,5 +2,5 @@
 *_old/
 *.sublime*
 *github.io/
-*gh-pages/
+*gh-pages*/
 *output/

@@ -5,16 +5,25 @@ summary: Imprimiéndose. Expresándose. Conociendose.
 <!-- align:center -->
 
 <div class='poetry'>
-Manos que escriben <br/>
 
-cursando el siglo <myupper>XXI</myupper>;<br/>
-
-Manos que escriben <br/>
-cada manuscrito;<br/>
+<p></p>
 
 Manos que escriben <br/>
+cada manuscrito,
+<br/>
+-sediento de ser
+palabra, oración, escrito-.<br/>
 
-nuestra realidad sutíl y profunda.<br/>
+Lenguajes que transcriben <br/>
+<!-- himnos que entonan
+imagenes que traducen... -->
+<!-- Palabras que tejen tejiendo en el siglo <myupper>XXI</myupper> -->
+
+<!-- Oraciones que describen  -->
+
+nuestra realidad,<br/>
+-sutíl y profunda, más allá de los sentidos-.
+
 </div>
 
 <div style='margin-top:50vh'></div>
@@ -25,14 +34,6 @@ nuestra realidad sutíl y profunda.<br/>
 
 <div style='margin-top:5em'></div>
 
-
-# `CURSANDO EL SIGLO XXI`
-
-{!+ scripta/versions/Manuscrito XXI/cursando el siglo XXI.md !}
-
-<div style='margin-top:5em'></div>
-
-
 # `CADA MANUSCRITO`
 
 {!+ scripta/versions/Manuscrito XXI/cada manuscrito.md !}
@@ -40,9 +41,17 @@ nuestra realidad sutíl y profunda.<br/>
 <div style='margin-top:5em'></div>
 
 
-# `NUESTRA REALIDAD SUTIL Y PROFUNDA`
+# `LENGUAJES QUE TRANSCRIBEN`
 
-{!+ scripta/versions/Manuscrito XXI/realidad sutil y profunda.md !}
+{!+ scripta/versions/Manuscrito XXI/lenguajes que transcriben.md !}
+
+<div style='margin-top:5em'></div>
+
+
+# `NUESTRA REALIDAD`
+
+{!+ scripta/versions/Manuscrito XXI/nuestra realidad.md !}
+
 
 
 

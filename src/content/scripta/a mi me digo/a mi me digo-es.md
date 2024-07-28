@@ -1,5 +1,7 @@
 status:published
 date:2023-11-21
+tags:lemas; Amor propio
+authors: elias
 
 Si eliges este camino:
 

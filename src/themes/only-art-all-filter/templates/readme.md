@@ -13,7 +13,8 @@ bypass this by using `include` inside this files.
 ### File names
 
 I created the `HTML dict` in the `paths.py` file:
-	from the templates dir structures it obtains the file names which are the keys of HTML
+
+from the templates dir structures it obtains the file names which are the keys of HTML
 
 
 
@@ -28,4 +29,8 @@ We identify home pages with metadata:
 
 >	landing:True
 
-since each one will be show in a menu in the landing page
+since each one will be shown in a menu in the landing page
+
+## Template code
+
+in the .html templates we use in upper case python variables defined in src/config

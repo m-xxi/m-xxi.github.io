@@ -1,5 +1,6 @@
 status:published
 tags:lemas
+clavis: amor; Dios Padre
 date:2023-04-14
 summary:Cada fuerza condensa una lágrima; una lágrima invisible. Cada lágrima refleja la luz; la luz detrás de cada fuerza.
 

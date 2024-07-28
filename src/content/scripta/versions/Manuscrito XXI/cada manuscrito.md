@@ -3,9 +3,9 @@ refleja el pensar,
 contiene el sentir,
 mueve el querer de un ser;
 
-cansado de no ser,
+*cansado de no ser;
 sediento de ser;
-palabra; oración; escrito.
+palabra, oración, escrito.*
 
 Un ser sediento de ser escrito.
 Un escrito que si toca tu voluntad será leido.
@@ -18,6 +18,6 @@ escrito en oración,
 orando con palabras
 el pensar, el sentir, el querer de tu ser;
 
-cansado de no ser,
+*cansado de no ser;
 sediento de ser;
-palabra; oración; escrito.
+palabra, oración, escrito.*

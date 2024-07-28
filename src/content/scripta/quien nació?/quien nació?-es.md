@@ -1,9 +1,11 @@
 date:2023-12-25
 status:published
+authors: josé
+tags: Dios Hijo
 
--Hola, ¿cómo andas?
--Bien che, feliz Navidad!
--Gracias, igualmente. Pero... ¿Quién nació? 
+-Hola, ¿cómo andas?<br/>
+-Bien che, feliz Navidad!<br/>
+-Gracias, igualmente. Pero... ¿quién nació? 
 
 Aquel que no pudo nacer en el calor de su hogar ni en el amparo de su pueblo. 
 Aquel que tuvo que nacer en medio de una dura peregrinación. 
@@ -28,12 +30,11 @@ En este tiempo de Navidad (y en cada natalicio) confiemos en la caridad divina: 
 
 Quienes somos responsables de los niños -padres, familiares, maestros- estamos obligados, por nobleza cristiana, a buscar la santidad de María y de José. Así podremos preparar a quienes van a seguir los pasos de Jesús.
 
-El Nazareno.
+	El Nazareno.
 
 Quien durante generaciones tuvo que prepararse para nacer en una vida paradójica, donde siendo rey se hizo pueblo, siendo rico se hizo pobre, siendo Todo se hizo parte.
 
-Quien durante años tuvo que prepararse para una vida de choque, 
-<!-- combate -->
+Quien durante años tuvo que prepararse para una vida de choque, <!-- combate -->
 donde siendo sabio abogó por el humilde, siendo profeta desenvainó su palabra, siendo santo oró contra el demonio.
 
 Quien durante años tuvo que prepararse para una vida de misericordia, donde siendo juez perdonó al arrepentido, siendo médico sanó al creyente, siendo pan alimentó a sus fieles.
@@ -42,9 +43,11 @@ Quien durante años tuvo que prepararse para una vida de entrega, donde siendo C
 
 Quien durante años tuvo que prepararse para una vida de humillación, donde siendo impecable fue blasfemado, siendo templo fue profanado, siendo mesías fue crucificado.
 
-- Faaa, demasiado. Pero ... en síntesis, ¿Quién nació? 
+	-Faaa, demasiado. Pero ... en síntesis, ¿Quién nació? 
 
-Aquel que hace más de dos mil años inaguró la fusión de Dios con los Hombres. Aquel que hoy nace en cada niño. Aquel que ayer, hoy y siempre golpea las puertas de nuestro corazón. Feliz Navidad!
+Aquel que hace más de dos mil años inaguró la fusión de Dios con los Hombres. Aquel que hoy nace en cada niño. Aquel que ayer, hoy y siempre golpea las puertas de nuestro corazón. 
+
+	Feliz Navidad!
 
 
 

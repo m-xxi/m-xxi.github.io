@@ -6,9 +6,9 @@ We wish happiness for you today
 We wish happiness KEEPS ON everyday
 
 
-KEEP ON
+`KEEP ON`
 smiling when you are happy
-KEEP ON
+`KEEP ON`
 enjoying everyday
 
 
@@ -18,9 +18,9 @@ It’s beautiful to see you
 fly light, fly free 
 
 
-KEEP ON 
+`KEEP ON` 
 dreaming while you dance 
-KEEP ON
+`KEEP ON`
 dancing while you dream
 
 
@@ -30,9 +30,9 @@ You must know we are listening
 even though we might look tough
 
 
-KEEP ON
+`KEEP ON`
 questioning our thoughts
-KEEP ON 
+`KEEP ON` 
 thinking our answers
 
 
@@ -42,9 +42,9 @@ Whatever results
 it helps you to grow
 
 
-KEEP ON
+`KEEP ON`
 playing while you learn
-KEEP ON
+`KEEP ON`
 learning while you play
 
 
@@ -54,9 +54,9 @@ Lets meet together the wonders
 of this world we live in
 
 
-KEEP ON
+`KEEP ON`
 wondering where to go
-KEEP ON 
+`KEEP ON` 
 wondering with what you see
 
 
@@ -66,9 +66,9 @@ You should know each step counts
 to get you where you want to go
 
 
-KEEP ON
+`KEEP ON`
 Walking in the sand or in the snow
-KEEP ON
+`KEEP ON`
 Walking to fulfill your goals
 
 ___
